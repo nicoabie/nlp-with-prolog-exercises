@@ -15,46 +15,12 @@ arc(1,3,hermione).
 ```
 The graph will now look as this:
 
-<img src='https://g.gravizo.com/svg?
-  digraph G {
-    rankdir=LR;
-    1 [shape=circle];
-    1 -> 2 [label="a|the"];
-    2 -> 2 [label="brave|fast"];
-    2 -> 3 [label="witch|wizard|broomstick|rat"];
-    3 [peripheries=2];
-    3 -> 1 [label="with"];
-    1 -> 3 [label="harry|hermione|ron"];
-  }
-'>
+<img src='https://g.gravizo.com/svg?digraph%20G%20%7B%0A%20%20%20%20rankdir%3DLR%3B%0A%20%20%20%201%20%5Bshape%3Dcircle%5D%3B%0A%20%20%20%201%20-%3E%202%20%5Blabel%3D%22a%7Cthe%22%5D%3B%0A%20%20%20%202%20-%3E%202%20%5Blabel%3D%22brave%7Cfast%22%5D%3B%0A%20%20%20%202%20-%3E%203%20%5Blabel%3D%22witch%7Cwizard%7Cbroomstick%7Crat%22%5D%3B%0A%20%20%20%203%20%5Bperipheries%3D2%5D%3B%0A%20%20%20%203%20-%3E%201%20%5Blabel%3D%22with%22%5D%3B%0A%20%20%20%201%20-%3E%203%20%5Blabel%3D%22harry%7Chermione%7Cron%22%5D%3B%0A%20%20%7D'>
 
 Test1 is able to parse now [ron, with, harry] however test3 only sees that 1 is an initial node and 3 is a final node and it stops there, unable to go back to the node 1 as test1 does.
 
 ## Ex 3.
 
-<img src='https://g.gravizo.com/svg?
-  digraph G {
-    rankdir=LR;
-    1 [shape=circle];
-    1 -> 2 [label="aaaa"];
-    2 -> 2 [label="a"];
-    2 -> 3 [label="bbb"];
-    3 -> 3 [label="b"];
-    3 -> 4 [label="b"];
-    4 [peripheries=2];
-  }
-'>
+<img src='https://g.gravizo.com/svg?digraph%20G%20%7B%0A%20%20%20%20rankdir%3DLR%3B%0A%20%20%20%201%20%5Bshape%3Dcircle%5D%3B%0A%20%20%20%201%20-%3E%202%20%5Blabel%3D%22aaaa%22%5D%3B%0A%20%20%20%202%20-%3E%202%20%5Blabel%3D%22a%22%5D%3B%0A%20%20%20%202%20-%3E%203%20%5Blabel%3D%22bbb%22%5D%3B%0A%20%20%20%203%20-%3E%203%20%5Blabel%3D%22b%22%5D%3B%0A%20%20%20%203%20-%3E%204%20%5Blabel%3D%22b%22%5D%3B%0A%20%20%20%204%20%5Bperipheries%3D2%5D%3B%0A%20%20%7D'>
 
-<img src='https://g.gravizo.com/svg?
-  digraph G {
-    rankdir=LR;
-    1 [shape=circle];
-    1 -> 2 [label="aa"];
-    2 -> 2 [label="a"];
-    2 -> 3 [label="cc"];
-    3 -> 4 [label="bb"];
-    4 -> 4 [label="b"];
-    4 -> 5 [label="b"];
-    5 [peripheries=2];
-  }
-'>
+<img src='https://g.gravizo.com/svg?digraph%20G%20%7B%0A%20%20%20%20rankdir%3DLR%3B%0A%20%20%20%201%20%5Bshape%3Dcircle%5D%3B%0A%20%20%20%201%20-%3E%202%20%5Blabel%3D%22aa%22%5D%3B%0A%20%20%20%202%20-%3E%202%20%5Blabel%3D%22a%22%5D%3B%0A%20%20%20%202%20-%3E%203%20%5Blabel%3D%22cc%22%5D%3B%0A%20%20%20%203%20-%3E%204%20%5Blabel%3D%22bb%22%5D%3B%0A%20%20%20%204%20-%3E%204%20%5Blabel%3D%22b%22%5D%3B%0A%20%20%20%204%20-%3E%205%20%5Blabel%3D%22b%22%5D%3B%0A%20%20%20%205%20%5Bperipheries%3D2%5D%3B%0A%20%20%7D'>
