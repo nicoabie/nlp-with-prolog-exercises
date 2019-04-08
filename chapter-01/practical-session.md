@@ -6,7 +6,7 @@ A first attempt to this problem may be the following FSA which has one initial n
 
 ### FSA Graph
 
-<img src='https://g.gravizo.com/svg?
+![Alt text](https://g.gravizo.com/svg?
   digraph G {
     rankdir=LR;
     1 [shape=circle];
@@ -18,7 +18,7 @@ A first attempt to this problem may be the following FSA which has one initial n
     1 -> 4 [label="harry|hermione|ron"];
     4 [peripheries=2];
   }
-'>
+)
 
 ### The translation to prolog is straightforward
 
