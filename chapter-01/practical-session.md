@@ -6,9 +6,7 @@ A first attempt to this problem may be the following FSA which has one initial n
 
 ### FSA Graph
 
-<img src='https://g.gravizo.com/svg?
-%20%20digraph%20G%20%7B%0A%20%20%20%20size%20%3D%2210%2C10%22%3B%0A%20%20%20%20rankdir%3DLR%3B%0A%20%20%20%201%20%5Bshape%3Dcircle%5D%3B%0A%20%20%20%201%20-%3E%202%20%5Blabel%3D%22a%7Cthe%22%5D%3B%0A%20%20%20%202%20-%3E%202%20%5Blabel%3D%22brave%7Cfast%22%5D%3B%0A%20%20%20%202%20-%3E%203%20%5Blabel%3D%22witch%7Cwizard%7Cbroomstick%7Crat%22%5D%3B%0A%20%20%20%203%20%5Bperipheries%3D2%5D%3B%0A%20%20%20%203%20-%3E%201%20%5Blabel%3D%22with%22%5D%3B%0A%20%20%20%201%20-%3E%204%20%5Blabel%3D%22harry%7Chermione%7Cron%22%5D%3B%0A%20%20%20%204%20%5Bperipheries%3D2%5D%3B%0A%20%20%7D
-'>
+<img src='https://g.gravizo.com/svg?%20%20digraph%20G%20%7B%0A%20%20%20%20size%20%3D%2210%2C10%22%3B%0A%20%20%20%20rankdir%3DLR%3B%0A%20%20%20%201%20%5Bshape%3Dcircle%5D%3B%0A%20%20%20%201%20-%3E%202%20%5Blabel%3D%22a%7Cthe%22%5D%3B%0A%20%20%20%202%20-%3E%202%20%5Blabel%3D%22brave%7Cfast%22%5D%3B%0A%20%20%20%202%20-%3E%203%20%5Blabel%3D%22witch%7Cwizard%7Cbroomstick%7Crat%22%5D%3B%0A%20%20%20%203%20%5Bperipheries%3D2%5D%3B%0A%20%20%20%203%20-%3E%201%20%5Blabel%3D%22with%22%5D%3B%0A%20%20%20%201%20-%3E%204%20%5Blabel%3D%22harry%7Chermione%7Cron%22%5D%3B%0A%20%20%20%204%20%5Bperipheries%3D2%5D%3B%0A%20%20%7D'>
 
 ### The translation to prolog is straightforward
 
